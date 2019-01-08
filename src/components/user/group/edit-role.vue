@@ -191,7 +191,7 @@
   }
 </script>
 
-<style lang="scss" type="text/scss" scope>
+<style lang="scss" type="text/scss" scoped>
   .edit-role-container {
     .role-name {
       padding-bottom: 25px;

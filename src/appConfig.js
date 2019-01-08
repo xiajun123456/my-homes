@@ -6,7 +6,7 @@ export const appConfig = {
   EXPORTMAXNUM: 50000,
   searchExpirationTime: 3000,
   operationalExpirationTime: 5000,
-  PROJECTNAME: '中国移动电量管理运营平台',
+  PROJECTNAME: 'TEST',
   PAGE: {
     itemsPerPage: 10
   },

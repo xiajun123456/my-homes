@@ -381,7 +381,7 @@
   }
 </script>
 
-<style lang="scss" type="text/scss" scope>
+<style lang="scss" type="text/scss" scoped>
   .icon-img {
     width: 251px;
     height: 70px;

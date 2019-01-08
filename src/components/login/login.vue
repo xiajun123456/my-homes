@@ -136,7 +136,7 @@
   }
 </script>
 
-<style lang="scss" type="text/scss" scope>
+<style lang="scss" type="text/scss" scoped>
   .login-container {
     width: 520px;
     position: absolute;

@@ -18,7 +18,7 @@
           </tr>
           </thead>
           <tbody>
-          <tr v-for="(scope,key) in tableData"
+          <tr v-for="(scoped,key) in tableData"
               :key="key">
             <td class="table-body-td table-td" v-if="checked">
               <el-checkbox :key="key"
@@ -31,14 +31,14 @@
               <div class="table-operating-list"
                    v-if="val.key">
                 <span v-if="val.key && !val.type"
-                      :title="scope[val.key]"
-                      :class="val.class?val.class(scope):''">
-                  {{scope[val.key]}}
+                      :title="scoped[val.key]"
+                      :class="val.class?val.class(scoped):''">
+                  {{scoped[val.key]}}
                 </span>
                 <span v-if="val.key && val.type"
-                      :title="scope[val.key] | typeMapFilter(val.type)"
-                      :class="val.class?val.class(scope):''">
-                  {{scope[val.key] | typeMapFilter(val.type)}}
+                      :title="scoped[val.key] | typeMapFilter(val.type)"
+                      :class="val.class?val.class(scoped):''">
+                  {{scoped[val.key] | typeMapFilter(val.type)}}
                 </span>
               </div>
               <div class="table-operating-list"
@@ -46,11 +46,11 @@
                   <span v-for="(td,key) in val.controls"
                         :key="key"
                         v-if="typeof td.show==='boolean'?td.show:btnPremiss[td.show]"
-                        :class="td.class(scope)"
+                        :class="td.class(scoped)"
                         class="table-operating-btn"
                         :title="td.text()"
-                        @click="td.onClick(scope)">
-                    {{td.text(scope)}}
+                        @click="td.onClick(scoped)">
+                    {{td.text(scoped)}}
                   </span>
               </div>
             </td>
@@ -146,7 +146,7 @@
   }
 </script>
 
-<style lang="scss" type="text/scss" scope>
+<style lang="scss" type="text/scss" scoped>
   .table-view {
     margin-top: 20px;
     .record {

@@ -263,7 +263,7 @@
   }
 </script>
 
-<style lang="scss" type="text/scss" scope>
+<style lang="scss" type="text/scss" scoped>
   .mt5{
     margin-top: 5px;
   }

@@ -23,7 +23,7 @@
   }
 </script>
 
-<style lang="scss" type="text/scss" scope>
+<style lang="scss" type="text/scss" scoped>
   .container-404 {
     position: absolute;
     background: url(../../assets/images/404.png) no-repeat;

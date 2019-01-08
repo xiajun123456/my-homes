@@ -314,7 +314,7 @@
   }
 </script>
 
-<style lang="scss" type="text/scss" scoped>
+<style lang="scss" type="text/scss" scopedd>
   /*.select_width {*/
     /*width: 100% !important*/
   /*}*/

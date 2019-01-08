@@ -62,7 +62,7 @@
   }
 </script>
 
-<style lang="scss" type="text/scss" scope>
+<style lang="scss" type="text/scss" scoped>
   .orgTreeBranch {
     ul {
       margin: 0 15px;

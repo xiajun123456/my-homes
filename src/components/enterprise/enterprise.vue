@@ -296,7 +296,7 @@
   }
 </script>
 
-<style lang="scss" type="text/scss" scope>
+<style lang="scss" type="text/scss" scoped>
   .base-config {
     padding: 20px 0 15px;
     .system-name {

@@ -182,7 +182,7 @@
   }
 </script>
 
-<style lang="scss" type="text/scss" scope>
+<style lang="scss" type="text/scss" scoped>
   .pager-container {
     .first-page {
       border-top-left-radius: 4px;

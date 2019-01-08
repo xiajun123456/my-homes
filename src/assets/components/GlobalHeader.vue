@@ -49,7 +49,7 @@
     }
   }
 </script>
-<style lang="scss" type="text/scss" scoped>
+<style lang="scss" type="text/scss" scopedd>
   @import "../style/_variables";
 
   .global-header {
